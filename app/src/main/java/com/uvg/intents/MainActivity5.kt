@@ -2,6 +2,7 @@ package com.uvg.intents
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main2.*
 import kotlinx.android.synthetic.main.activity_main4.*
 import kotlinx.android.synthetic.main.activity_main5.*
 
@@ -22,6 +23,10 @@ class MainActivity5 : AppCompatActivity() {
             val resp = "El resultado es: " + resultado
 
             txtres4.text = resp
+        }
+
+        btnreg4.setOnClickListener {
+            finish()
         }
     }
 }

@@ -23,5 +23,9 @@ class MainActivity3 : AppCompatActivity() {
 
             txtres2.text = resp
         }
+
+        btnreg2.setOnClickListener {
+            finish()
+        }
     }
 }

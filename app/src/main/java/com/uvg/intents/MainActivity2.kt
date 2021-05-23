@@ -23,6 +23,10 @@ class MainActivity2 : AppCompatActivity() {
 
             txtres.text = resp
         }
+
+        btnreg1.setOnClickListener {
+            finish()
+        }
     }
 
 }
